@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 模型、Hugging Face 快取與暫存檔 (由程式自動下載，體積很大)
+.cache/
+models/
+*.ckpt
+*.onnx
+*.pth
+*.th
+
+# 音檔與分軌結果 (通常有版權，不要上傳)
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.opus
+*.aiff
+*.aif
+*.wma
+* - Stems/
+* - 分軌/
+*分軌/
+
+# 系統 / 編輯器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

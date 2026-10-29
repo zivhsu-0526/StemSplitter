@@ -1,0 +1,13 @@
+# 建議用 `python install.py` 安裝，它會依平台與顯示卡處理下面兩項:
+#   1. PyTorch
+#        NVIDIA GPU: pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu126
+#        其他:       pip install torch torchaudio
+#   2. audio-separator
+#        NVIDIA GPU: pip install "audio-separator[gpu]>=0.47"
+#        其他:       pip install "audio-separator[cpu]>=0.47"
+transformers>=4.40
+static-ffmpeg>=2.5
+soundfile>=0.12
+audioread>=3.0
+scipy>=1.11
+numpy>=1.26
